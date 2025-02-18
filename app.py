@@ -50,8 +50,8 @@ st.markdown(
 st.markdown("<h1 style='text-align: center; font-size: 36px;'>🎬 Movie Recommendation System 🎥</h1>", unsafe_allow_html=True)
 
 # Load and preprocess data
-file_path = "C:\\Users\\yukth\\Downloads\\Dataset_with_Movie_Ratings.csv"
-df = pd.read_csv(file_path)
+file_url = "https://github.com/yukthabhargavi/movie-recommendation-system-/blob/main/Dataset_with_Movie_Ratings%20(1).csv"
+df = pd.read_csv(file_url)
 
 # Encode genres
 label_encoder = LabelEncoder()
